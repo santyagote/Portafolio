@@ -237,3 +237,39 @@ footer {
   background-color: #f5d9a6;
   transform: scale(1.05);
 }
+/* Nuevos estilos para secciones adicionales */
+
+.lista-formacion,
+.lista-habilidades {
+  list-style-type: disc;
+  padding-left: 2rem;
+  color: #cccccc;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.lista-formacion li,
+.lista-habilidades li {
+  margin-bottom: 0.5rem;
+}
+
+.cv {
+  text-align: center;
+}
+
+.descarga-cv {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .lista-formacion,
+  .lista-habilidades {
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+
+  .descarga-cv a {
+    width: 90%;
+    display: inline-block;
+  }
+}
